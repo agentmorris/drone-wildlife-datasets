@@ -106,7 +106,7 @@ Qian Y, Humphries G, Trathan P, Lowther A, Donovan C.  Counting animals in aeria
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-qian-penguins.py">preview-qian-penguins.py</a>
 * Shortcode: qian-penguins
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/qian_penguins_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/qian_penguins_sample_image_annotated.jpg" width=700>
   
   
 ### Data from: A convolutional neural network for detecting sea turtles in drone imagery
@@ -126,7 +126,7 @@ Gray PC, Fleishman AB, Klein DJ, McKown MW, Bezy VS, Lohmann KJ, Johnston DW. A 
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-gray-turtles.py">preview-gray-turtles.py</a>
 * Shortcode: gray-turtles
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/gray_turtles_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/gray_turtles_sample_image_annotated.jpg" width=700>
   
   
 ### The Aerial Elephant Dataset
@@ -146,7 +146,7 @@ Naude J, Joubert D. The Aerial Elephant Dataset: A New Public Benchmark for Aeri
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-aerial-elephants.py">preview-aerial-elephants.py</a>
 * Shortcode: aerial-elephants
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/aerial_elephants_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/aerial_elephants_sample_image_annotated.jpg" width=700>
   
   
 ### A global model of bird detection in high resolution airborne images using computer vision
@@ -166,7 +166,7 @@ Weinstein BG, Garner L, Saccomanno VR, Steinkraus A, Ortega A, Brush K, Yenni G,
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-weinstein-birds.py">preview-weinstein-birds.py</a>
 * Shortcode: weinstein-birds
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/weinstein_birds_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/weinstein_birds_sample_image_annotated.jpg" width=700>
   
   
 ### Aerial Photo Imagery from Fall Waterfowl Surveys, Izembek Lagoon, Alaska, 2017-2019
@@ -188,7 +188,7 @@ Weiser EL, Flint PL, Marks DK, Shults BS, Wilson HM, Thompson SJ, Fischer JB. Ae
 * Code to render sample annotated image from the LILA dataset: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-weiser-waterfowl-lila.py">preview-weiser-waterfowl-lila.py</a>
 * Shortcode: weiser-waterfowl-lila
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/weiser_waterfowl_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/weiser_waterfowl_sample_image_annotated.jpg" width=700>
   
   
 ### Data from: Drones and deep learning produce accurate and efficient monitoring of large-scale seabird colonies
@@ -208,7 +208,7 @@ Hayes MC, Gray PC, Harris G, Sedgwick WC, Crawford VD, Chazal N, Crofts S, Johns
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-hayes-seabirds.py">preview-hayes-seabirds.py</a>
 * Shortcode: hayes-seabirds
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/hayes_seabirds_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/hayes_seabirds_sample_image_annotated.jpg" width=700>
   
   
 ### Cattle detection and counting in UAV images based on convolutional neural networks
@@ -228,7 +228,7 @@ Shao W, Kawakami R, Yoshihashi R, You S, Kawase H, Naemura T. Cattle detection a
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-shao-cattle.py">preview-shao-cattle.py</a>
 * Shortcode: shao-cattle
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/shao_cattle_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/shao_cattle_sample_image_annotated.jpg" width=700>
   
   
 ### NOAA Fisheries Steller Sea Lion Population Count
@@ -246,7 +246,7 @@ Shao W, Kawakami R, Yoshihashi R, You S, Kawase H, Naemura T. Cattle detection a
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-steller-sea-lion-count.py">preview-steller-sea-lion-count.py</a>
 * Shortcode: steller-sea-lion-count
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/steller_sea_lion_count_sample_image.jpg" width=700>
+<img src="aerial-drone-data-preview/steller_sea_lion_count_sample_image.jpg" width=700>
   
   
 ### Right Whale Recognition
@@ -264,7 +264,7 @@ Shao W, Kawakami R, Yoshihashi R, You S, Kawase H, Naemura T. Cattle detection a
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-right-whale-recognition.py">preview-right-whale-recognition.py</a>
 * Shortcode: right-whale-recognition
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/right_whale_recognition_sample_image.jpg" width=700>
+<img src="aerial-drone-data-preview/right_whale_recognition_sample_image.jpg" width=700>
   
   
 ### NOAA Arctic Seals 2019
@@ -284,7 +284,7 @@ Alaska Fisheries Science Center, 2021: A Dataset for Machine Learning Algorithm 
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-noaa-arctic-seals.py">preview-noaa-arctic-seals.py</a>
 * Shortcode: noaa-arctic-seals
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/noaa_arctic_seals_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/noaa_arctic_seals_sample_image_annotated.jpg" width=700>
   
   
 ### Aerial Seabirds West Africa
@@ -304,7 +304,7 @@ Kellenberger B, Veen T, Folmer E, Tuia D. 21,000 birds in 4.5 h: efficient large
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-aerial-seabirds-west-africa.py">preview-aerial-seabirds-west-africa.py</a>
 * Shortcode: aerial-seabirds-west-africa
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/aerial_seabirds_west_africa_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/aerial_seabirds_west_africa_sample_image_annotated.jpg" width=700>
   
   
 ### Conservation Drones
@@ -324,7 +324,7 @@ Bondi E, Jain R, Aggrawal P, Anand S, Hannaford R, Kapoor A, Piavis J, Shah S, J
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-conservation-drones.py">preview-conservation-drones.py</a>
 * Shortcode: conservation-drones
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/conservation_drones_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/conservation_drones_sample_image_annotated.jpg" width=700>
 
 
 ### BuckTales: A multi-UAV dataset for multi-object tracking and re-identification of wild antelopes
@@ -345,7 +345,7 @@ Naik H, Yang J, Das D, Crofoot MC, Rathore A, Sridhar VH. BuckTales: A multi-UAV
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-naik-bucktales.py">preview-naik-bucktales.py</a>
 * Shortcode: naik-bucktales
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/bucktales_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/bucktales_annotated.jpg" width=700>
 
 
 ### DAZZLE: Drone-Acquired Zebra Data for Large-scale Ecology Research
@@ -366,7 +366,7 @@ Price E, Khandelwal PC, Rubenstein DI, Ahmad A. A Framework for Fast, Large-scal
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-price-zebras.py">preview-price-zebras.py</a>
 * Shortcode: price-zebras
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/price_zebras_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/price_zebras_sample_image_annotated.jpg" width=700>
 
 
 ### Quantifying the movement, behaviour and environmental context of group-living animals using drones and computer vision
@@ -386,7 +386,7 @@ Koger B, Deshpande A, Kerby JT, Graving JM, Costelloe BR, Couzin ID. [Quantifyin
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-koger-drones.py">preview-koger-drones.py</a>
 * Shortcode: koger-drones
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/koger_drones_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/koger_drones_sample_image_annotated.jpg" width=700>
 
 
 ### Data from "Deep object detection for waterbird monitoring using aerial imagery"
@@ -395,7 +395,7 @@ Kabra K, Xiong A, Li W, Luo M, Lu W, Yu T, Yu J, Singh D, Garcia R, Tang M, Arno
 
 * 3.7GB, downloadable from Google Drive (<a href="https://drive.google.com/file/d/1hoP1ev8Npj5m0MZWZU7LpjU9c8JYYoFe/view?usp=share_link">download link</a>)
 * Metadata in .csv format
-* Categories: <a href="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/kabra_birds_categories.txt">list of categories</a>
+* Categories: <a href="aerial-drone-data-preview/kabra_birds_categories.txt">list of categories</a>
 * Vehicle type: drone
 * Image information: 200 drone images
 * Annotation information: 23078 boxes, species and age (juvenile/adult) information for each box
@@ -404,7 +404,7 @@ Kabra K, Xiong A, Li W, Luo M, Lu W, Yu T, Yu J, Singh D, Garcia R, Tang M, Arno
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-kabra-birds.py">preview-kabra-birds.py</a>
 * Shortcode: kabra-birds
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/kabra_birds_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/kabra_birds_sample_image_annotated.jpg" width=700>
 
 
 ### KABR: In-Situ Dataset for Kenyan Animal Behavior Recognition from Drone Videos
@@ -424,7 +424,7 @@ Kholiavchenko M, Kline J, Ramirez M, Stevens S, Sheets A, Babu R, Banerji N, Cam
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-kabr-behavior.py">preview-kabr-behavior.py</a>
 * Shortcode: kabr-behavior
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/kabr_sample_image_annotated.jpg">
+<img src="aerial-drone-data-preview/kabr_sample_image_annotated.jpg">
 
 
 ### MMLA-OPC
@@ -444,7 +444,7 @@ Kline J, Nguyen Ngoc D, Duncan H, Rondaeu Saint-Jean C, Maalouf G, Juma B, Kilwa
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-mmla-opc.py">preview-mmla-opc.py</a>
 * Shortcode: mmla-opc
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/mmla_opc_sample_image_annotated.jpg">
+<img src="aerial-drone-data-preview/mmla_opc_sample_image_annotated.jpg">
 
 
 ### MMLA-Wilds
@@ -464,7 +464,7 @@ Kline J, Zhong A, Yablok J.  MMLA The Wilds Dataset, 2025.
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-mmla-wilds.py">preview-mmla-wilds.py</a>
 * Shortcode: mmla-wilds
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/mmla_wilds_sample_image_annotated.jpg">
+<img src="aerial-drone-data-preview/mmla_wilds_sample_image_annotated.jpg">
 
 
 ### MMLA-Mpala
@@ -486,7 +486,7 @@ MMLA Mpala Dataset, 2025.
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-mmla-mpala.py">preview-mmla-mpala.py</a>
 * Shortcode: mmla-mpala
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/mmla_mpala_sample_image_annotated.jpg">
+<img src="aerial-drone-data-preview/mmla_mpala_sample_image_annotated.jpg">
 
 
 ### WAID: Wildlife Aerial Images from Drone
@@ -505,7 +505,7 @@ Mou C, Liu T, Zhu C, Cui X. Waid: A large-scale dataset for wildlife detection w
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-waid-drones.py">preview-waid-drones.py</a>
 * Shortcode: waid-drones
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/waid_sample_image_annotated.jpg">
+<img src="aerial-drone-data-preview/waid_sample_image_annotated.jpg">
 
 
 ### UAS Imagery of Migratory Waterfowl at New Mexico Wildlife Refuges
@@ -523,7 +523,7 @@ Converse RC, Lippitt CD, Sesnie SE, Harris GM, Butler MG, Stewart DR. Observer v
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-nm-waterfowl.py">preview-nm-waterfowl.py</a>
 * Shortcode: nm-waterfowl
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/nm_waterfowl_sample_image_annotated.png">
+<img src="aerial-drone-data-preview/nm_waterfowl_sample_image_annotated.png">
 
 
 ### Multispecies detection and identification of African mammals
@@ -541,7 +541,7 @@ Delplanque A, Foucher S, Lejeune P, Linchant J, Théau J. Multispecies detection
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-delplanque-mammals.py">preview-delplanque-mammals.py</a>
 * Shortcode: delplanque-mammals
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/delplanque_mammals_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/delplanque_mammals_sample_image_annotated.jpg" width=700>
 
 
 ### SAVMAP (UAV images of Namibian wildlife)
@@ -576,7 +576,7 @@ For the Hugging Face version:
 * Annotation information: 1283 boxes
 * Code to convert Parquet to COCO and render sample images: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/convert-savmap-huggingface.py">convert-savmap-huggingface.py</a>
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/savmap_thumb.jpg" width=700>
+<img src="aerial-drone-data-preview/savmap_thumb.jpg" width=700>
 
 
 ## Datasets available by request
