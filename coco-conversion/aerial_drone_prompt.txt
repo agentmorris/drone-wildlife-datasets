@@ -1,0 +1,139 @@
+# Environment
+
+mamba create -n aerial-drone-coco-conversion python=3.12 pip -y && mamba activate aerial-drone-coco-conversion
+
+# Initial prompt
+
+I maintain a repository of public datasets containing aerial and/or drone imagery related to wildlife surveys.  The local copy of that repo is here, in the same folder you're running in:
+
+C:\git\drone-wildlife-datasets
+
+You should read the README:
+
+C:\git\drone-wildlife-datasets\README.md
+
+...to understand the way the collection is organized.
+
+I have downloaded all of the datasets described in that collection to this folder:
+
+I:\data\drone-data
+
+...with one dataset per subfolder.
+
+Each dataset in the README file has a "shortcode"; that will also be the folder name of the corresponding data folder.  For example, the first dataset in the README is called "Improving the precision and accuracy of animal population estimates with aerial image object detection".  Beneath that title, you'll see "Shortcode: eikelboom-savanna".  This dataset has been downloaded to:
+
+I:\data\drone-data\eikelboom-savanna
+
+The purpose of this list is not just to track datasets, but to create a harmonized dataset that allows me to train a general-purpose model that uses all of these datasets.  This is our goal for today: I want to create a single COCO-formatted .json file:
+
+I:\data\drone-data\output\drone-wildlife-datasets.json
+
+...that refers to all of the images in these datasets by paths to that root folder.
+
+For example, one of the images in the dataset I mentioned above is located at:
+
+I:\data\drone-data\eikelboom-savanna\val\DPP_00418.JPG
+
+...this should appear in the COCO file with the filename:
+
+eikelboom-savanna/val/DPP_00418.JPG
+
+Annotations should have only three categories: "bird", "mammal", "empty", and "other".
+
+The "empty" category should be reserved for cases where a dataset's annotation format allowed it to express that an image did not contain any annotations, and "empty" annotations should have no bounding boxes.  An image with an "empty" annotation should have no other annotations.  You should *not* assume that an image that exists in a dataset folder but does not appear in the metadata for that dataset is empty, the "empty" tag should only be used for cases where datasets have a clear way of expressing empty images.
+
+Many of the datasets are split into suggested train, val, and/or test splits.  When this information is available, it should be propagated to a non-standard "original_split" field in the COCO image objects.
+
+In addition to the fields normally used in a COCO annotation object (e.g. "image_id"), annotations should also have a field called "original_category" that includes the category name that was used for this annotation in the original dataset.  The following fields are used in some variants of the COCO standard; you don't need to use any of these: "supercategory", "area", "segmentation", "iscrowd", "license".  Images just need to have the "id", "file_name", "width", and "height" fields, and sometimes "original_split".  Annotations need to have "id", "image_id", "category_id", and "bbox".  Some of the datasets have points as the labeling atom, rather than boxes; in those cases, you should use a non-standard "point" field in annotations in lieu of a "bbox" field.  Some of the datasets have segmentation masks; those should be converted to bounding boxes.
+
+The datasets' annotations are currently in a wide variety of formats.  However, for every dataset, I believe I have done most of the work to understand any nuances of the original annotation format.  In the "aerial-drone-data-preview" folder, there are .py files that look like this:
+
+preview-eikelboom-savanna.py
+
+This loads the dataset, parses the annotations, and renders at least one sample image with its annotations, which is *most* of the work required to understand the format and convert to COCO.  As you process each dataset, you should read the corresponding .py file.  You don't necessarily have to re-use the code, but I think it will clarify important open questions about how each dataset is organized.  In some cases, that .py file might make slightly different assumptions about the root path compared to the folders within "i:\data\drone-data", but I don't think this will be a significant issue.  For example, when you read "preview-eikelboom-savanna.py", then look inside "I:\data\drone-data\eikelboom-savanna", I think you will be able to find the annotation files and understand the assumed image root.
+
+You should use Python.  I don't have a strong opinion on overall project organization, but I weakly recommend that you create a folder called "coco-conversion", and add one .py file for each dataset that converts that dataset to a self-contained COCO file, then one more .py file called "merge-datasets.py" or similar, to merge all the dataset-specific .json files into a single .json file at the end.  You should keep track of any challenges, notes, etc. in a .md file, but not in README.md .  Create a new .md file called conversion-notes.md .
+
+You are running in a conda environment, feel free to pip-install anything you need, but track requirements in a requirements.txt file.
+
+The first thing you should do is make sure that you can match shortcodes from the README to (a) image folders and (b) .py files, then you should ask me about any mismatches before proceeding.
+
+When processing a dataset, the vast majority of images referred to in annotations should be found on disk, and you should check this.  If a small number are missing, that's OK, but if more than 10% of the images on disk don't appear in the annotations, or more than 10% of the images appearing in annotations don't exist on disk, that suggests that something went wrong, and you should check with me.
+
+In other words, after processing a dataset, you should double-check that:
+
+(1) All images in the COCO file have at least one annotation (which may be "empty")
+(2) The number of images in the COCO file is approximately equal to the number of images on disk
+
+There may be cases when one or both of those are not true, but you should check with me before proceeding if you hit those cases.
+
+Any output files you want to write should go into:
+
+I:\data\drone-data\output
+
+Throughout this session, err on the side of asking me clarifying questions; I am not in a hurry.  Ask at least three clarifying questions before proceeding.
+
+
+# Responses
+
+Re: stellar-sea-lion-count...
+
+Good catch, I just changed the folder name (though this is moot, because we won't be processing count-only datasets).
+
+Re: price-zebras...
+
+Good catch, I just fixed the folder name.
+
+Re: categories...
+
+Yes, "human", "vehicle", "drone", and "shadow" should all go into "other", though the original categories should be maintained in a nonstandard field as per above.
+
+Re: datasets with only counts, individual IDs, or behavior (no spatial annotations)...
+
+Yes, skip these, and note them in conversion-notes.md .  Create a section in the README for datasets we skipped, with a short explanation of why we skipped each of those datasets.
+
+Re: savmap...
+
+The "reinhard-savmap" folder contains two subfolders:
+
+* savmap-huggingface
+* savmap-zenodo
+
+You should use the Hugging Face version.  Filenames in the COCO file should still be relative to the overall base (i:\data\drone-data), i.e., all relative paths in this case will start with "reinhard-savmap/savmap-huggingface/".  Make a note in conversion-notes.md indicating that we skipped the zenodo version, but processed the huggingface version.
+
+Re: missing datasets... 
+
+* Skip hu-thermal, mention in conversion-notes.md that thermal datasets are out of scope for this exercise
+* Skip hodgson-counts, mention in conversion-notes.md that count-only datasets are out of scope for this exercise
+* Skip right-whale-recognition, mention in conversion-notes.md that individual-ID-only datasets are out of scope for this exercise
+* Skip conservation-drones, mention in conversion-notes.md that thermal datasets are out of scope for this exercise
+* Skip kabr-behavior, mention in conversion-notes.md that behavior-only datasets are out of scope for this exercise
+
+For aerial-seabirds-west-africa, nm-waterfowl, noaa-arctic-seals, and weiser-waterfowl-lila, make a note that we are going to work on these later.  They will work exactly the same way, but they are currently on different hard drives.
+
+Re: SAVMAP...
+
+Yes, assume they are mammals.
+
+Re: turtles...
+
+Good catch, let's actually add an additional category called "reptile".
+
+
+## Notes on LILA datsets
+
+* nm-waterfowl is only 322MB
+* weiser-waterfowl-lila is only 124GB
+* aerial-seabirds-west-africa is only 2.2GB
+
+* noaa-arctic-seals is 1TB, but that includes all the thermal imagery, and a bunch of empty images
+
+
+## Inspection
+
+Now I want to visually inspect the results.  Write a script that reads the merged .json file, chooses three images randomly for each dataset, renders annotations (boxes or points) on that image, writes the resulting image to I:\data\drone-data\output\sample_images, and creates an index.html file that shows those images.  The index.html file should also be in the "sample_images" folder, and should refer to images by relative path.  Each image should have the relative path shown above it (i.e., the filename that identifies it in the .json file).
+
+Images should be rendered at their original resolution, but shown in the html file with "width:1000px;".  Images should be in flat files in the "sample_images" folder (i.e., there should be no subfolders), but they should
+  have filenames that make it easy to tell which file is which, e.g. you can use the original relative path, but replaces slashes with underscores.
+  
+Then run that script.

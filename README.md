@@ -552,7 +552,7 @@ Reinhard F, Parkan M, Produit T, Betschart S, Bacchilega B, Hauptfleisch ML, Mei
 
 According to the documentation provided with the Hugging Face version of the dataset:
 
-> "This dataset is not identical to the [Zenodo version]. The images have been cropped to 2000*2000 and only a portion of the negative samples (i.e. empty images) have been selected. The dataset comprises 3545 negative samples and 379 positive samples."
+> "This dataset is not identical to the Zenodo version. The images have been cropped to 2000*2000 and only a portion of the negative samples (i.e. empty images) have been selected. The dataset comprises 3545 negative samples and 379 positive samples."
 
 For both versions:
 
