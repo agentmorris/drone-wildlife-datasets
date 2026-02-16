@@ -68,6 +68,11 @@ def main():
         im = Image.open(image_path).convert('RGB')
         draw = ImageDraw.Draw(im)
 
+        # Scale line widths so they're at least 5px after resizing to 1000px
+        scale = im.width / 1000
+        line_w = max(round(5 * scale), 5)
+        point_r = max(round(5 * scale), 5)
+
         anns = img_id_to_anns.get(img['id'], [])
         for ann in anns:
             cat_name = cat_id_to_name.get(ann['category_id'], 'other')
@@ -75,11 +80,10 @@ def main():
 
             if 'bbox' in ann:
                 x, y, w, h = ann['bbox']
-                draw.rectangle([x, y, x + w, y + h], outline=color, width=2)
+                draw.rectangle([x, y, x + w, y + h], outline=color, width=line_w)
             elif 'point' in ann:
                 px, py = ann['point']
-                r = 4
-                draw.ellipse([px - r, py - r, px + r, py + r], fill=color, outline=color)
+                draw.ellipse([px - point_r, py - point_r, px + point_r, py + point_r], fill=color, outline=color)
 
         out_name = file_name.replace('/', '_').replace('\\', '_')
         out_path = os.path.join(SAMPLE_DIR, out_name)
