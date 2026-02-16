@@ -46,7 +46,7 @@ Eikelboom JA, Wind J, van de Ven E, Kenana LM, Schroder B, de Knegt HJ, van Lang
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-eikelboom-savanna.py">preview-eikelboom-savanna.py</a>
 * Shortcode: eikelboom-savanna
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/eikelboom_savanna_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/eikelboom_savanna_sample_image_annotated.jpg" width=700>
   
   
 ### UAV-derived waterfowl thermal imagery dataset
@@ -726,3 +726,4 @@ Not directly machine-learning-related, but it seems relevant in the sense that i
 ### OSS repos about drone/aerial wildlife datasets
 
 * WAID (Wildlife Aerial Images from Drone)<br/>[github.com/xiaohuicui/WAID](https://github.com/xiaohuicui/WAID)
+
