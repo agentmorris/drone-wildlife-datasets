@@ -66,7 +66,7 @@ Hu Q, Smith J, Woldt W, Tang Z. UAV-derived waterfowl thermal imagery dataset. M
 * Code to render sample annotated image: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/preview-hu-thermal.py">preview-hu-thermal.py</a>
 * Shortcode: hu-thermal
 
-<img src="https://raw.githubusercontent.com/agentmorris/agentmorrispublic/main/aerial-drone-data-preview/hu_thermal_sample_image_annotated.jpg" width=700>
+<img src="aerial-drone-data-preview/hu_thermal_sample_image_annotated.jpg" width=700>
   
   
 ### Drones count wildlife more accurately and precisely than humans
@@ -86,7 +86,7 @@ Hodgson JC, Mott R, Baylis SM, Pham TT, Wotherspoon S, Kilpatrick AD, Raja Segar
 * Shortcode: hodgson-counts
 
 
-<img src="https://raw.githubusercontent.com/KalindiFonda/bAIo/main/aerial-drone-data-preview/drone_count_seabird_colony_60m_sample.jpg" width=700>
+<img src="aerial-drone-data-preview/drone_count_seabird_colony_60m_sample.jpg" width=700>
   
   
 ### Counting animals in aerial images with a density map estimation model
@@ -593,7 +593,7 @@ For the Hugging Face version:
 * Typical animal size in pixels: 1000
 * License: CC0
 
-<img src="https://raw.githubusercontent.com/KalindiFonda/bAIo/main/aerial-drone-data-preview/mugger_crocodiles_31_2_sample.jpg" width=700>
+<img src="aerial-drone-data-preview/mugger_crocodiles_31_2_sample.jpg" width=700>
 
 
 ### Whales from Space
