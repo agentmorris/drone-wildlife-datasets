@@ -9,8 +9,8 @@ Permalink to this page:
 
 * <a href="#overview">Overview</a>
 * <a href="#publicly-available-datasets">Publicly available datasets</a>
+* <a href="#datasets-added-recently-that-i-havent-had-a-chance-to-dig-into-yet">Datasets added recently that I haven't had a chance to dig into yet</a>
 * <a href="#datasets-available-by-request">Datasets available by request</a>
-* <a href="#datasets-added-recently-that-we-havent-had-a-chance-to-dig-into-yet">Datasets added recently that we haven't had a chance to dig into yet</a>
 * <a href="#publicly-available-models-for-wildlife-detection-in-droneaerial-images">Publicly-available models for wildlife detection in drone/aerial images</a>
 * <a href="#platformssystems-for-wildlife-detection-in-droneaerial-images">Platforms/systems for wildlife detection in drone/aerial images</a>
 * <a href="#oss-repos-about-wildlife-detection-in-droneaerial-images">OSS repos about wildlife detection in drone/aerial images</a>
@@ -579,6 +579,24 @@ For the Hugging Face version:
 <img src="aerial-drone-data-preview/savmap_thumb.jpg" width=700>
 
 
+## Datasets added recently that I haven't had a chance to dig into yet
+
+### BAMBI dataset
+
+Praschl C, Schedl DC, Maschek A, Probst K, Stöckl A, Böss L, Jantsch W, Leitner H, Wohlfahrt S, Leiler H, Schneeberger R, Wipplinger A, Willemsen F, Bronner G, Jawecki B, Eppich G. The BAMBI Dataset: Multimodal Nadir UAV-Recordings of Forest Wildlife. Zenodo, 2026.
+
+* ~75GB, downloadable from [Zenodo](https://github.com/bambi-eco/Dataset/?tab=readme-ov-file#availability)
+* Metadata in MOT format
+* Categories: wild boar, red deer, roe deer, fallow deer, alpine ibex, chamois, bird, human, dog, hybrid pig
+* Vehicle type: UAV
+* Image information: 389 paired RGB+thermal images
+* Annotation information: ~1.2M boxes
+* Typical animal size in pixels: TBD
+* License: CC-BY 4.0
+* Code to render sample annotated image: TODO
+* Shortcode: praschl-bambi
+
+
 ## Datasets available by request
 
 ### Identification of free-ranging mugger crocodiles by applying deep learning methods on UAV imagery
@@ -609,9 +627,9 @@ Cubaynes HC, Fretwell PT. Whales from space dataset, an annotated satellite imag
 * Image information: 633 RGB images (150x150 chips)
 * Annotation information:  boxes
 * Typical animal size in pixels: 50
-* License: variable
-    
-  
+* License: variable   
+ 
+
 ## Publicly-available models for wildlife detection in drone/aerial images
 
 This section lists ML models one can download and run locally on drone/aerial images of wildlife (or use in cloud-based systems).  This section does not include models that exist in online platforms but can't be downloaded locally.
