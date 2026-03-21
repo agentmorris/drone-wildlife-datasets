@@ -579,6 +579,19 @@ For the Hugging Face version:
 <img src="aerial-drone-data-preview/savmap_thumb.jpg" width=700>
 
 
+## Big Bird
+
+Wilson JP, Amano T, Bregnballe T, Corregidor-Castro A, Francis R, Gallego-García D, Hodgson JC, Jones LR, Luque-Fernández CR, Marchowski D, McEvoy J. [Big Bird: A global dataset of birds in drone imagery annotated to species level](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.70059). Remote Sensing in Ecology and Conservation. 2026.
+
+23,865 images with species-level annotations for 100 birds; only a subset have boxes (49,490 bird annotations on 4,824 images).
+
+* Annotated data is ~45GB, downloadable from [UQ eSpace](https://espace.library.uq.edu.au/view/UQ:27809f1)
+* Metadata in COCO format
+* License: "Permitted reuse with acknowledgement" ([license details](https://guides.library.uq.edu.au/research-and-teaching-staff/data-deposit-checklist/license-reuse-with-acknowledgement))
+* Code to render sample annotated image: TODO
+* Shortcode: wilson-bigbird
+
+
 ## Datasets added recently that I haven't had a chance to dig into yet
 
 ### BAMBI dataset
@@ -596,6 +609,21 @@ Praschl C, Schedl DC, Maschek A, Probst K, Stöckl A, Böss L, Jantsch W, Leitne
 * Code to render sample annotated image: TODO
 * Shortcode: praschl-bambi
 
+### Multi-species wildlife in South African savanna
+
+Allin P, Seydou F, Frans R, Davies A, Leslie A. Evaluating machine learning models for multi-species wildlife detection and identification on remote sensed nadir imagery in South African savanna. Wildlife Biology. 2026 Feb:e01523.
+
+* ~450GB, downloadable from [Dryad](https://datadryad.org/dataset/doi:10.5061/dryad.9ghx3ffvc)
+* Metadata in COCO and label studio format
+* Relevant code is [here](https://github.com/FadelMamar/wildetect)
+* Categories: TBD
+* Vehicle type: UAV
+* Image information: TBD
+* Annotation information: TBD
+* Typical animal size in pixels: TBD
+* License: TBD (Dryad page says "public domain", but I'm not sure that's accurate)
+* Code to render sample annotated image: TODO
+* Shortcode: allin-nadir
 
 ## Datasets available by request
 
