@@ -579,17 +579,19 @@ For the Hugging Face version:
 <img src="aerial-drone-data-preview/savmap_thumb.jpg" width=700>
 
 
-## Big Bird
+### Big Bird
 
 Wilson JP, Amano T, Bregnballe T, Corregidor-Castro A, Francis R, Gallego-García D, Hodgson JC, Jones LR, Luque-Fernández CR, Marchowski D, McEvoy J. [Big Bird: A global dataset of birds in drone imagery annotated to species level](https://zslpublications.onlinelibrary.wiley.com/doi/full/10.1002/rse2.70059). Remote Sensing in Ecology and Conservation. 2026.
 
-23,865 images with species-level annotations for 100 birds; only a subset have boxes (49,490 bird annotations on 4,824 images).
+23,865 images with species-level annotations for 100 species; only a subset have boxes (49,490 bird annotations on 4,824 images).
 
 * Annotated data is ~45GB, downloadable from [UQ eSpace](https://espace.library.uq.edu.au/view/UQ:27809f1)
-* Metadata in COCO format
+* Metadata in labelme format
 * License: "Permitted reuse with acknowledgement" ([license details](https://guides.library.uq.edu.au/research-and-teaching-staff/data-deposit-checklist/license-reuse-with-acknowledgement))
-* Code to render sample annotated image: TODO
+* Code to render sample annotated image: [preview-wilson-bigbird.py](aerial-drone-data-preview/preview-wilson-bigbird.py)
 * Shortcode: wilson-bigbird
+
+<img src="aerial-drone-data-preview/wilson_bigbird_thumb.jpg" width=700>
 
 
 ## Datasets added recently that I haven't had a chance to dig into yet
