@@ -586,6 +586,7 @@ Wilson JP, Amano T, Bregnballe T, Corregidor-Castro A, Francis R, Gallego-Garcí
 23,865 images with species-level annotations for 100 species; only a subset have boxes (49,490 bird annotations on 4,824 images).
 
 * Annotated data is ~45GB, downloadable from [UQ eSpace](https://espace.library.uq.edu.au/view/UQ:27809f1)
+* The annotated subset is also [available on LILA](https://lila.science/datasets/big-bird)
 * Metadata in labelme format
 * License: "Permitted reuse with acknowledgement" ([license details](https://guides.library.uq.edu.au/research-and-teaching-staff/data-deposit-checklist/license-reuse-with-acknowledgement))
 * Code to render sample annotated image: [preview-wilson-bigbird.py](aerial-drone-data-preview/preview-wilson-bigbird.py)
