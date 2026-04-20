@@ -680,10 +680,11 @@ When possible, the first link for each line item should get you pretty close to 
 * [Esri Arctic Seal Detector](https://www.arcgis.com/home/item.html?id=bb05ab8f3b7c4ec79eca613c9273ef6f) (2025, [data](https://lila.science/datasets/noaa-arctic-seals-2019)) (Faster-RCNN, trained w/ArcGIS Python API, distributed as an Esri dlpk file (which is a zipped .pth file))
 * [Esri Elephant Detector](https://www.arcgis.com/home/item.html?id=4976292298c440e686aa339e52da2dbb) (2025, [data](https://zenodo.org/records/3234780)) (Faster-RCNN, trained w/ArcGIS Python API, distributed as an Esri dlpk file (which is a zipped .pth file))
 * [Esri human detector](https://www.arcgis.com/home/item.html?id=42bfd5392d834c83aa21193450888a9e) (2025) (Faster-RCNN, trained w/ArcGIS Python API, distributed as an Esri dlpk file (which is a zipped .pth file))
+* [WildlifeMapper](https://github.com/UCSB-VRL/WildlifeMapper) (2024) (multi-class detector for African mammals)
 
 ## Platforms/systems for wildlife detection in drone/aerial images
 
-### Platforms that are specifically related to wildlife
+### Platforms that are specifically related to wildlife, and have evidence of being active
 
 #### Scout
 
@@ -702,24 +703,41 @@ When possible, the first link for each line item should get you pretty close to 
 * [home](https://wildeyeconservation.org/surveyscope/)
 * [code](https://github.com/WildEyeConservation/Detweb/)
 
-#### WildAI
-
-* [home](https://www.wildai.eu/)
-
-Not a ton of information as of 2025.09.12, just entering beta.  Web page says "Simply upload your aerial images to our platform, where our powerful AI model automatically processes and analyzes the data for you, and then seamlessly review and verify the results with complete confidence and ease."
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/surveyscope-screenshot.png" width="600">
 
 #### WISDAM
 
 "WISDAM is a free, downloadable application designed for researchers (or community groups) conducting wildlife imagery surveys from either piloted aircraft or drones."
 
 * [home](https://www.wisdamapp.org/about/)
+* [code](https://github.com/WISDAMapp/WISDAM/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wisdam-700-px.jpg" width="600">
+
+#### WildAI
+
+* [home](https://www.wildai.eu/)
+
+Not a ton of information as of 2025.09.12, just entering beta.  Web page says "Simply upload your aerial images to our platform, where our powerful AI model automatically processes and analyzes the data for you, and then seamlessly review and verify the results with complete confidence and ease."
+
+#### Wildlife Annotation Tool
+
+* [blog](https://eros.usgs.gov/doi-remote-sensing-activities/2023/usgs/automating-detection-and-classification-wildlife-aerial-imagery)
+* [other blog](https://www.usgs.gov/centers/upper-midwest-environmental-sciences-center/science/deep-learning-automated-detection-and)
+
+CVAT fork used by USGS/BOEM/USFWS for bird model training.  Not publication available AFAIK.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildlife_annotation_tool.png" width="600">
+
+### Platforms that are specifically related to wildlife, but look inactive
 
 #### AIDE
 
 "AIDE is two things in one: a tool for manually annotating images and a tool for training and running machine (deep) learning models. Those two things are coupled in an active learning loop: the human annotates a few images, the system trains a model, that model is used to make predictions and to select more images for the human to annotate, etc."
 
-* [home](https://github.com/microsoft/aerial_wildlife_detection)
-* [code](https://github.com/microsoft/aerial_wildlife_detection) (the same link as "home", but bulleted lists with only one item are unsatisfying)
+As of 2026.04, the last meaningful commit was ~2022.
+
+* [code](https://github.com/microsoft/aerial_wildlife_detection)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/aide-screenshot.jpg" width="600">
 
