@@ -673,6 +673,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 * [Conservation Drones Elephant Tracker](https://github.com/ConservationDronesAI/ElephantDetectionAndTracking) (2025, [paper](https://cdnsciencepub.com/doi/10.1139/dsa-2025-0032)) (YOLOv11x elephant detector, plus tracking configuration files)
 * [HerdNet](https://github.com/Alexandre-Delplanque/HerdNet) (2022, [code](https://github.com/Alexandre-Delplanque/HerdNet), [data](https://dataverse.uliege.be/dataset.xhtml?persistentId=doi:10.58119/ULG/MIRUU5)) (custom detector for African mammals in aerial imagery)
+* [DuckNet](https://github.com/mkmitchell/DuckNet) (2025, [paper](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.70028)) (RetinaNet on ResNet50 for ducks in UAV images)
 * [Global model of bird detection](https://github.com/weecology/BirdDetector/releases) (2021, [code](https://github.com/weecology/BirdDetector), [data](https://zenodo.org/records/5033174), [paper](https://www.biorxiv.org/content/10.1101/2021.08.05.455311v2.full)) (RetinaNet on ResNet50 in PyTorch) (downloadable directly, but recommended use is via the [DeepForest package](https://deepforest.readthedocs.io/en/latest/prebuilt.html#bird-detection))
 * [DeepForest's Livestock Detection Model](https://deepforest.readthedocs.io/en/v1.4.1/user_guide/02_prebuilt.html#livestock-detectors-model) (2024) (single-class detector for cows, sheep, and other large mammals in agricultural settings)
 * [Izembek goose detector](https://github.com/agentmorris/usgs-geese/releases) (2023, [code](https://github.com/agentmorris/usgs-geese), [data](https://lila.science/datasets/izembek-lagoon-waterfowl)) (YOLOv5, detects birds in Izembek Lagoon in Alaska, particularly brant geese, in aerial imagery)
@@ -788,6 +789,7 @@ Not directly machine-learning-related, but it seems relevant in the sense that i
 * kabr-tools (behavioral analysis from drone videos)<br/>[github.com/Imageomics/kabr-tools](https://github.com/Imageomics/kabr-tools)
 * kabr-tools (behavioral analysis from drone videos)<br/>[github.com/Imageomics/kabr-tools](https://github.com/Imageomics/kabr-tools)
 * Conservation Drones Elephant Detection and Tracking<br/>([github.com/ConservationDronesAI/ElephantDetectionAndTracking](https://github.com/ConservationDronesAI/ElephantDetectionAndTracking))
+* DuckNet (a detector for waterbirds) ([github.com/mkmitchell/DuckNet](https://github.com/mkmitchell/DuckNet))
 
 
 ### OSS repos about drone/aerial wildlife datasets
