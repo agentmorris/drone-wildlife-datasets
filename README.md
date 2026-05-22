@@ -595,6 +595,20 @@ Wilson JP, Amano T, Bregnballe T, Corregidor-Castro A, Francis R, Gallego-Garcí
 <img src="aerial-drone-data-preview/wilson_bigbird_thumb.jpg" width=700>
 
 
+### BOEM Birds
+
+Ke T, Koneff MD, Lubinski BR, Robinson L, Fronczak DL, Fara LJ, Landolt KL, White TP. [Code, imagery, and annotations for training a deep learning model to detect wildlife in aerial imagery](https://www.sciencebase.gov/catalog/item/658da7c1d34e3265ab14bb00).  U.S. Geological Survey data release, 2024.
+
+23,865 images with species-level annotations for 100 species; only a subset have boxes (49,490 bird annotations on 4,824 images).
+
+* Annotated data is ~45GB, downloadable from [UQ eSpace](https://espace.library.uq.edu.au/view/UQ:27809f1)
+* The annotated subset is also [available on LILA](https://lila.science/datasets/big-bird)
+* Metadata in labelme format
+* License: "Permitted reuse with acknowledgement" ([license details](https://guides.library.uq.edu.au/research-and-teaching-staff/data-deposit-checklist/license-reuse-with-acknowledgement))
+* Code to render sample annotated image: [preview-wilson-bigbird.py](aerial-drone-data-preview/preview-wilson-bigbird.py)
+* Shortcode: landolt-boembirds
+
+
 ## Datasets added recently that I haven't had a chance to dig into yet
 
 ### BAMBI dataset
@@ -606,7 +620,7 @@ Praschl C, Schedl DC, Maschek A, Probst K, Stöckl A, Böss L, Jantsch W, Leitne
 * Categories: wild boar, red deer, roe deer, fallow deer, alpine ibex, chamois, bird, human, dog, hybrid pig
 * Vehicle type: UAV
 * Image information: 389 paired RGB+thermal images
-* Annotation information: ~1.2M boxes
+* Annotation information: ~5100 bounding boxes on keyframes, interpolated to ~1.2M boxes
 * Typical animal size in pixels: TBD
 * License: CC-BY 4.0
 * Code to render sample annotated image: TODO
