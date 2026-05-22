@@ -620,7 +620,7 @@ Praschl C, Schedl DC, Maschek A, Probst K, Stöckl A, Böss L, Jantsch W, Leitne
 * Categories: wild boar, red deer, roe deer, fallow deer, alpine ibex, chamois, bird, human, dog, hybrid pig
 * Vehicle type: UAV
 * Image information: 389 paired RGB+thermal images
-* Annotation information: ~5100 bounding boxes on keyframes, interpolated to ~1.2M boxes
+* Annotation information: ~5100 annotated tracks with ~93k annotated keyframes, interpolated to ~1.2M boxes
 * Typical animal size in pixels: TBD
 * License: CC-BY 4.0
 * Code to render sample annotated image: TODO
