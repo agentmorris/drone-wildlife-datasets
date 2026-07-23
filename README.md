@@ -794,7 +794,6 @@ Not directly machine-learning-related, but it seems relevant in the sense that i
 * Global model of bird detection<br/>[github.com/weecology/BirdDetector](https://github.com/weecology/BirdDetector)
 * Izembek goose detector<br/>[github.com/agentmorris/usgs-geese](https://github.com/agentmorris/usgs-geese)
 * kabr-tools (behavioral analysis from drone videos)<br/>[github.com/Imageomics/kabr-tools](https://github.com/Imageomics/kabr-tools)
-* kabr-tools (behavioral analysis from drone videos)<br/>[github.com/Imageomics/kabr-tools](https://github.com/Imageomics/kabr-tools)
 * Conservation Drones Elephant Detection and Tracking<br/>([github.com/ConservationDronesAI/ElephantDetectionAndTracking](https://github.com/ConservationDronesAI/ElephantDetectionAndTracking))
 * DuckNet (a detector for waterbirds) ([github.com/mkmitchell/DuckNet](https://github.com/mkmitchell/DuckNet))
 
