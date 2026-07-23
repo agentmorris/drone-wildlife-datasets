@@ -783,7 +783,7 @@ Not directly machine-learning-related, but it seems relevant in the sense that i
 
 ## OSS repos about wildlife detection in drone/aerial images
 
-* OpenWildlife (mmdetection variant for duck detection in UAV images<br/>[github.com/echonax07/OpenWildlife](https://github.com/echonax07/OpenWildlife)
+* OpenWildlife (mmdetection variant for duck detection in UAV images)<br/>[github.com/echonax07/OpenWildlife](https://github.com/echonax07/OpenWildlife)
 * POLO (modified YOLOv8 that trains on point labels)<br/>[github.com/gigumay/POLO](https://github.com/gigumay/POLO)
 * DeepForest (tools for object detection in aerial images, esp trees and birds)<br/>[github.com/weecology/DeepForest](https://github.com/weecology/DeepForest)
 * AIDE (interactive platform for labeling and training aerial wildlife image ML)<br/>[github.com/microsoft/aerial_wildlife_detection](https://github.com/microsoft/aerial_wildlife_detection)
@@ -793,7 +793,6 @@ Not directly machine-learning-related, but it seems relevant in the sense that i
 * Scout (AI tools for aerial wildlife detection)<br/>[github.com/WildMeOrg/scout](https://github.com/WildMeOrg/scout)
 * Global model of bird detection<br/>[github.com/weecology/BirdDetector](https://github.com/weecology/BirdDetector)
 * Izembek goose detector<br/>[github.com/agentmorris/usgs-geese](https://github.com/agentmorris/usgs-geese)
-* kabr-tools (behavioral analysis from drone videos)<br/>[github.com/Imageomics/kabr-tools](https://github.com/Imageomics/kabr-tools)
 * kabr-tools (behavioral analysis from drone videos)<br/>[github.com/Imageomics/kabr-tools](https://github.com/Imageomics/kabr-tools)
 * Conservation Drones Elephant Detection and Tracking<br/>([github.com/ConservationDronesAI/ElephantDetectionAndTracking](https://github.com/ConservationDronesAI/ElephantDetectionAndTracking))
 * DuckNet (a detector for waterbirds) ([github.com/mkmitchell/DuckNet](https://github.com/mkmitchell/DuckNet))
