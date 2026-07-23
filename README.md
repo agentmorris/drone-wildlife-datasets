@@ -4,7 +4,6 @@ Permalink to this page:
 
 <http://lila.science/aerialdata>
 
-
 ## Contents
 
 * <a href="#overview">Overview</a>
@@ -48,7 +47,6 @@ Eikelboom JA, Wind J, van de Ven E, Kenana LM, Schroder B, de Knegt HJ, van Lang
 
 <img src="aerial-drone-data-preview/eikelboom_savanna_sample_image_annotated.jpg" width=700>
   
-  
 ### UAV-derived waterfowl thermal imagery dataset
 
 8976 bounding boxes on waterfowl in UAV-derived thermal images
@@ -68,7 +66,6 @@ Hu Q, Smith J, Woldt W, Tang Z. UAV-derived waterfowl thermal imagery dataset. M
 
 <img src="aerial-drone-data-preview/hu_thermal_sample_image_annotated.jpg" width=700>
   
-  
 ### Drones count wildlife more accurately and precisely than humans
 
 Images of 10 life-sized, replica seabird colonies containing a known number of fake birds taken from four different heights (30m, 60m, 90m and 120m)
@@ -85,9 +82,7 @@ Hodgson JC, Mott R, Baylis SM, Pham TT, Wotherspoon S, Kilpatrick AD, Raja Segar
 * License: CC0
 * Shortcode: hodgson-counts
 
-
 <img src="aerial-drone-data-preview/drone_count_seabird_colony_60m_sample.jpg" width=700>
-  
   
 ### Counting animals in aerial images with a density map estimation model
 
@@ -108,7 +103,6 @@ Qian Y, Humphries G, Trathan P, Lowther A, Donovan C.  Counting animals in aeria
 
 <img src="aerial-drone-data-preview/qian_penguins_sample_image_annotated.jpg" width=700>
   
-  
 ### Data from: A convolutional neural network for detecting sea turtles in drone imagery
 
 1902 point annotations on sea turtles in drone images
@@ -127,7 +121,6 @@ Gray PC, Fleishman AB, Klein DJ, McKown MW, Bezy VS, Lohmann KJ, Johnston DW. A 
 * Shortcode: gray-turtles
 
 <img src="aerial-drone-data-preview/gray_turtles_sample_image_annotated.jpg" width=700>
-  
   
 ### The Aerial Elephant Dataset
 
@@ -148,7 +141,6 @@ Naude J, Joubert D. The Aerial Elephant Dataset: A New Public Benchmark for Aeri
 
 <img src="aerial-drone-data-preview/aerial_elephants_sample_image_annotated.jpg" width=700>
   
-  
 ### A global model of bird detection in high resolution airborne images using computer vision
 
 386638 box annotations on 23765 drone images from 13 ecosystems
@@ -167,7 +159,6 @@ Weinstein BG, Garner L, Saccomanno VR, Steinkraus A, Ortega A, Brush K, Yenni G,
 * Shortcode: weinstein-birds
 
 <img src="aerial-drone-data-preview/weinstein_birds_sample_image_annotated.jpg" width=700>
-  
   
 ### Aerial Photo Imagery from Fall Waterfowl Surveys, Izembek Lagoon, Alaska, 2017-2019
 
@@ -190,7 +181,6 @@ Weiser EL, Flint PL, Marks DK, Shults BS, Wilson HM, Thompson SJ, Fischer JB. Ae
 
 <img src="aerial-drone-data-preview/weiser_waterfowl_sample_image_annotated.jpg" width=700>
   
-  
 ### Data from: Drones and deep learning produce accurate and efficient monitoring of large-scale seabird colonies
 
 44966 bounding boxes on drone images of black-browed albatrosses and southern rockhopper penguins
@@ -209,7 +199,6 @@ Hayes MC, Gray PC, Harris G, Sedgwick WC, Crawford VD, Chazal N, Crofts S, Johns
 * Shortcode: hayes-seabirds
 
 <img src="aerial-drone-data-preview/hayes_seabirds_sample_image_annotated.jpg" width=700>
-  
   
 ### Cattle detection and counting in UAV images based on convolutional neural networks
 
@@ -230,7 +219,6 @@ Shao W, Kawakami R, Yoshihashi R, You S, Kawase H, Naemura T. Cattle detection a
 
 <img src="aerial-drone-data-preview/shao_cattle_sample_image_annotated.jpg" width=700>
   
-  
 ### NOAA Fisheries Steller Sea Lion Population Count
 
 948 aerial images of sea lions with counts for each image
@@ -248,7 +236,6 @@ Shao W, Kawakami R, Yoshihashi R, You S, Kawase H, Naemura T. Cattle detection a
 
 <img src="aerial-drone-data-preview/steller_sea_lion_count_sample_image.jpg" width=700>
   
-  
 ### Right Whale Recognition
 
 4544 images of right whales with individual IDs
@@ -265,7 +252,6 @@ Shao W, Kawakami R, Yoshihashi R, You S, Kawase H, Naemura T. Cattle detection a
 * Shortcode: right-whale-recognition
 
 <img src="aerial-drone-data-preview/right_whale_recognition_sample_image.jpg" width=700>
-  
   
 ### NOAA Arctic Seals 2019
 
@@ -286,7 +272,6 @@ Alaska Fisheries Science Center, 2021: A Dataset for Machine Learning Algorithm 
 
 <img src="aerial-drone-data-preview/noaa_arctic_seals_sample_image_annotated.jpg" width=700>
   
-  
 ### Aerial Seabirds West Africa
 
 High-resolution aerial RGB imagery obtained from a census of breeding seabirds in West Africa in 2019, with 21516 point annotations on seabirds
@@ -306,7 +291,6 @@ Kellenberger B, Veen T, Folmer E, Tuia D. 21,000 birds in 4.5 h: efficient large
 
 <img src="aerial-drone-data-preview/aerial_seabirds_west_africa_sample_image_annotated.jpg" width=700>
   
-  
 ### Conservation Drones
 
 Thermal drone videos with 166221 boxes and object IDs on humans, elephants, and several other animals
@@ -325,7 +309,6 @@ Bondi E, Jain R, Aggrawal P, Anand S, Hannaford R, Kapoor A, Piavis J, Shah S, J
 * Shortcode: conservation-drones
 
 <img src="aerial-drone-data-preview/conservation_drones_sample_image_annotated.jpg" width=700>
-
 
 ### BuckTales: A multi-UAV dataset for multi-object tracking and re-identification of wild antelopes
 
@@ -347,7 +330,6 @@ Naik H, Yang J, Das D, Crofoot MC, Rathore A, Sridhar VH. BuckTales: A multi-UAV
 
 <img src="aerial-drone-data-preview/bucktales_annotated.jpg" width=700>
 
-
 ### DAZZLE: Drone-Acquired Zebra Data for Large-scale Ecology Research
 
 Oblique aerial videos of zebras with 162931 bounding boxes and behavioral labels (standing, grazing, etc.).
@@ -368,7 +350,6 @@ Price E, Khandelwal PC, Rubenstein DI, Ahmad A. A Framework for Fast, Large-scal
 
 <img src="aerial-drone-data-preview/price_zebras_sample_image_annotated.jpg" width=700>
 
-
 ### Quantifying the movement, behaviour and environmental context of group-living animals using drones and computer vision
 
 Drone images of ungulates and geladas with 40532 bounding boxes.
@@ -388,7 +369,6 @@ Koger B, Deshpande A, Kerby JT, Graving JM, Costelloe BR, Couzin ID. [Quantifyin
 
 <img src="aerial-drone-data-preview/koger_drones_sample_image_annotated.jpg" width=700>
 
-
 ### Data from "Deep object detection for waterbird monitoring using aerial imagery"
 
 Kabra K, Xiong A, Li W, Luo M, Lu W, Yu T, Yu J, Singh D, Garcia R, Tang M, Arnold H. [Deep object detection for waterbird monitoring using aerial imagery](https://ieeexplore.ieee.org/document/10069986). In 2022 21st IEEE International Conference on Machine Learning and Applications (ICMLA) 2022 Dec 12 (pp. 455-460). IEEE.
@@ -405,7 +385,6 @@ Kabra K, Xiong A, Li W, Luo M, Lu W, Yu T, Yu J, Singh D, Garcia R, Tang M, Arno
 * Shortcode: kabra-birds
 
 <img src="aerial-drone-data-preview/kabra_birds_sample_image_annotated.jpg" width=700>
-
 
 ### KABR: In-Situ Dataset for Kenyan Animal Behavior Recognition from Drone Videos
 
@@ -426,7 +405,6 @@ Kholiavchenko M, Kline J, Ramirez M, Stevens S, Sheets A, Babu R, Banerji N, Cam
 
 <img src="aerial-drone-data-preview/kabr_sample_image_annotated.jpg">
 
-
 ### MMLA-OPC
 
 ~29k frames with boxes on zebras in UAV images, collected from Ol Pejeta Conservancy in Kenya.
@@ -446,7 +424,6 @@ Kline J, Nguyen Ngoc D, Duncan H, Rondaeu Saint-Jean C, Maalouf G, Juma B, Kilwa
 
 <img src="aerial-drone-data-preview/mmla_opc_sample_image_annotated.jpg">
 
-
 ### MMLA-Wilds
 
 ~8k frames with boxes on onagers (~45k), giraffe (~7k), zebra (~2.5k) and wild dogs (14) in UAV images, collected at The Wilds Conservation Center in Ohio.
@@ -465,7 +442,6 @@ Kline J, Zhong A, Yablok J.  MMLA The Wilds Dataset, 2025.
 * Shortcode: mmla-wilds
 
 <img src="aerial-drone-data-preview/mmla_wilds_sample_image_annotated.jpg">
-
 
 ### MMLA-Mpala
 
@@ -488,9 +464,7 @@ MMLA Mpala Dataset, 2025.
 
 <img src="aerial-drone-data-preview/mmla_mpala_sample_image_annotated.jpg">
 
-
 ### WAID: Wildlife Aerial Images from Drone
-
 
 Mou C, Liu T, Zhu C, Cui X. Waid: A large-scale dataset for wildlife detection with drones. Applied Sciences. 2023 Sep 17;13(18):10397.IEEE/CVF Winter Conference on Applications of Computer Vision 2024.
 
@@ -506,7 +480,6 @@ Mou C, Liu T, Zhu C, Cui X. Waid: A large-scale dataset for wildlife detection w
 * Shortcode: waid-drones
 
 <img src="aerial-drone-data-preview/waid_sample_image_annotated.jpg">
-
 
 ### UAS Imagery of Migratory Waterfowl at New Mexico Wildlife Refuges
 
@@ -525,7 +498,6 @@ Converse RC, Lippitt CD, Sesnie SE, Harris GM, Butler MG, Stewart DR. Observer v
 
 <img src="aerial-drone-data-preview/nm_waterfowl_sample_image_annotated.png">
 
-
 ### Multispecies detection and identification of African mammals
 
 Delplanque A, Foucher S, Lejeune P, Linchant J, Théau J. Multispecies detection and identification of African mammals in aerial imagery using convolutional neural networks. Remote Sensing in Ecology and Conservation. 2022 Apr;8(2):166-79.
@@ -542,7 +514,6 @@ Delplanque A, Foucher S, Lejeune P, Linchant J, Théau J. Multispecies detection
 * Shortcode: delplanque-mammals
 
 <img src="aerial-drone-data-preview/delplanque_mammals_sample_image_annotated.jpg" width=700>
-
 
 ### SAVMAP (UAV images of Namibian wildlife)
 
@@ -577,7 +548,6 @@ For the Hugging Face version:
 * Code to convert Parquet to COCO and render sample images: <a href="https://github.com/agentmorris/agentmorrispublic/blob/main/aerial-drone-data-preview/convert-savmap-huggingface.py">convert-savmap-huggingface.py</a>
 
 <img src="aerial-drone-data-preview/savmap_thumb.jpg" width=700>
-
 
 ### Big Bird
 
@@ -649,7 +619,6 @@ Ke T, Koneff MD, Lubinski BR, Robinson L, Fronczak DL, Fara LJ, Landolt KL, Whit
 
 <img src="aerial-drone-data-preview/mugger_crocodiles_31_2_sample.jpg" width=700>
 
-
 ### Whales from Space
 
 633 satellite image chips with boxes on whales
@@ -665,23 +634,18 @@ Cubaynes HC, Fretwell PT. Whales from space dataset, an annotated satellite imag
 * Typical animal size in pixels: 50
 * License: variable   
  
-
 ## Publicly-available models for wildlife detection in drone/aerial images
 
-This section lists ML models one can download and run locally on drone/aerial images of wildlife (or use in cloud-based systems).  This section does not include models that exist in online platforms but can't be downloaded locally.
+This section lists ML models one can download and run locally on drone/aerial images of wildlife (or use in cloud-based systems).  This section does not include models that exist in online platforms but can't be downloaded locally.  
 
-My hope is that this section can grow into a more structured database of models with sample code... if you want to help with that, <a href="mailto:agentmorris+dronesurvey@gmail.com">email me</a>.
-
-I am making a very loose effort to include last-updated dates for each of these.  Those dates are meant to very loosely capture repo activity, so that if you go looking for a detector for ecosystem X, you can start with more active sources.  But I'm not digging that deep; if someone trained a detector in 2016 that is totally obsolete, but they corrected a bunch of typos in their repo in 2023, they will successfully trick my algorithm for determining the last-updated date.
-
-When possible, the first link for each line item should get you pretty close to the model weights.
+I am making a very loose effort to include last-updated dates for each of these, but I'm not digging that deep; if someone trained a detector in 2016 that is totally obsolete, but they corrected a bunch of typos in their repo in 2023, they will successfully trick my algorithm for determining the last-updated date.
 
 * [Conservation Drones Elephant Tracker](https://github.com/ConservationDronesAI/ElephantDetectionAndTracking) (2025, [paper](https://cdnsciencepub.com/doi/10.1139/dsa-2025-0032)) (YOLOv11x elephant detector, plus tracking configuration files)
-* [HerdNet](https://github.com/Alexandre-Delplanque/HerdNet) (2022, [code](https://github.com/Alexandre-Delplanque/HerdNet), [data](https://dataverse.uliege.be/dataset.xhtml?persistentId=doi:10.58119/ULG/MIRUU5)) (custom detector for African mammals in aerial imagery)
+* [HerdNet](https://github.com/Alexandre-Delplanque/HerdNet) (2022, [data](https://dataverse.uliege.be/dataset.xhtml?persistentId=doi:10.58119/ULG/MIRUU5)) (custom detector for African mammals in aerial imagery)
 * [DuckNet](https://github.com/mkmitchell/DuckNet) (2025, [paper](https://zslpublications.onlinelibrary.wiley.com/doi/10.1002/rse2.70028)) (RetinaNet on ResNet50 for ducks in UAV images)
-* [Global model of bird detection](https://github.com/weecology/BirdDetector/releases) (2021, [code](https://github.com/weecology/BirdDetector), [data](https://zenodo.org/records/5033174), [paper](https://www.biorxiv.org/content/10.1101/2021.08.05.455311v2.full)) (RetinaNet on ResNet50 in PyTorch) (downloadable directly, but recommended use is via the [DeepForest package](https://deepforest.readthedocs.io/en/latest/prebuilt.html#bird-detection))
+* [Global model of bird detection](https://github.com/weecology/BirdDetector) (2021, [data](https://zenodo.org/records/5033174), [paper](https://www.biorxiv.org/content/10.1101/2021.08.05.455311v2.full)) (RetinaNet on ResNet50 in PyTorch) (downloadable directly, but recommended use is via the [DeepForest package](https://deepforest.readthedocs.io/en/v1.4.1/user_guide/02_prebuilt.html#bird-detection-model))
 * [DeepForest Livestock Detection Model](https://deepforest.readthedocs.io/en/v1.4.1/user_guide/02_prebuilt.html#livestock-detectors-model) (2024) (single-class detector for cows, sheep, and other large mammals in agricultural settings)
-* [Izembek goose detector](https://github.com/agentmorris/usgs-geese/releases) (2023, [code](https://github.com/agentmorris/usgs-geese), [data](https://lila.science/datasets/izembek-lagoon-waterfowl)) (YOLOv5, detects birds in Izembek Lagoon in Alaska, particularly brant geese, in aerial imagery)
+* [Izembek goose detector](https://github.com/agentmorris/usgs-geese) (2023, [data](https://lila.science/datasets/izembek-lagoon-waterfowl), [report](https://www.sciencebase.gov/catalog/item/67a6a615d34e329fb20398c2)) (YOLOv5, detects birds in Izembek Lagoon in Alaska, particularly brant geese, in aerial imagery)
 * [OWL (Overhead Wildlife Locator)](https://github.com/microsoft/MegaDetector-Overhead) (2026) (a family of models including CNN-, Swin-, and DINOv3-based variants)
 * [Esri Tern Detector](https://www.arcgis.com/home/item.html?id=4019a53c914947aea9621ba226ec8861) (2025, [data](https://lila.science/datasets/aerial-seabirds-west-africa)) (Mask-RCNN, trained w/ArcGIS Python API, distributed as an Esri dlpk file (which is a zipped .pth file))
 * [Esri Arctic Seal Detector](https://www.arcgis.com/home/item.html?id=bb05ab8f3b7c4ec79eca613c9273ef6f) (2025, [data](https://lila.science/datasets/noaa-arctic-seals-2019)) (Faster-RCNN, trained w/ArcGIS Python API, distributed as an Esri dlpk file (which is a zipped .pth file))
@@ -721,22 +685,24 @@ When possible, the first link for each line item should get you pretty close to 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wisdam-700-px.jpg" width="600">
 
-#### WildAI
-
-* [home](https://www.wildai.eu/)
-
-Not a ton of information as of 2025.09.12, just entering beta.  Web page says "Simply upload your aerial images to our platform, where our powerful AI model automatically processes and analyzes the data for you, and then seamlessly review and verify the results with complete confidence and ease."
-
 #### Wildlife Annotation Tool
 
-* [blog](https://eros.usgs.gov/doi-remote-sensing-activities/2023/usgs/automating-detection-and-classification-wildlife-aerial-imagery)
-* [other blog](https://www.usgs.gov/centers/upper-midwest-environmental-sciences-center/science/deep-learning-automated-detection-and)
+* [blog post](https://eros.usgs.gov/doi-remote-sensing-activities/2023/usgs/automating-detection-and-classification-wildlife-aerial-imagery)
+* [other blog post](https://www.usgs.gov/centers/upper-midwest-environmental-sciences-center/science/deep-learning-automated-detection-and)
+* [and another blog post](https://eros.usgs.gov/doi-remote-sensing-activities/2021/usgs/automated-detection-wildlife-targets-aerial-imagery)
+* [yet another blog post](https://www.usgs.gov/centers/upper-midwest-environmental-sciences-center/science/deep-learning-automated-detection-and)
 
 CVAT fork used by USGS/BOEM/USFWS for bird model training.  Not publication available AFAIK.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildlife_annotation_tool.png" width="600">
 
 ### Platforms that are specifically related to wildlife, but look inactive
+
+#### WildAI
+
+* [home](https://www.wildai.eu/)
+
+Not a ton of information as of 2026.07.23, has been "in the final stages of development" since early 2025.  Web page says "Simply upload your aerial images to our platform, where our powerful AI model automatically processes and analyzes the data for you, and then seamlessly review and verify the results with complete confidence and ease."
 
 #### AIDE
 
@@ -783,22 +749,12 @@ Not directly machine-learning-related, but it seems relevant in the sense that i
 
 ## OSS repos about wildlife detection in drone/aerial images
 
+...that are not already listed in the <a href="#publicly-available-models-for-wildlife-detection-in-droneaerial-images">publicly-available models</a> or <a href="#platformssystems-for-wildlife-detection-in-droneaerial-images">systems/platforms</a> sections above.
+
 * OpenWildlife (mmdetection variant for duck detection in UAV images)<br/>[github.com/echonax07/OpenWildlife](https://github.com/echonax07/OpenWildlife)
 * POLO (modified YOLOv8 that trains on point labels)<br/>[github.com/gigumay/POLO](https://github.com/gigumay/POLO)
 * DeepForest (tools for object detection in aerial images, esp trees and birds)<br/>[github.com/weecology/DeepForest](https://github.com/weecology/DeepForest)
-* AIDE (interactive platform for labeling and training aerial wildlife image ML)<br/>[github.com/microsoft/aerial_wildlife_detection](https://github.com/microsoft/aerial_wildlife_detection)
-* HerdNet (training and inference for ungulate detection in aerial images)<br/>[github.com/Alexandre-Delplanque/HerdNet](https://github.com/Alexandre-Delplanque/HerdNet)
 * UAV Thermal Wildlife Detection (training detection models on the BIRDSAI dataset)<br/>[github.com/tiffanyyk/UAV-Thermal-IR-Wildlife-Object-Detection](https://github.com/tiffanyyk/UAV-Thermal-IR-Wildlife-Object-Detection)
 * HealthyCountryAI (training and inference for UAV wildlife detection in Australia)<br/>[github.com/microsoft/HealthyCountryAI](https://github.com/microsoft/HealthyCountryAI)
-* Scout (AI tools for aerial wildlife detection)<br/>[github.com/WildMeOrg/scout](https://github.com/WildMeOrg/scout)
-* Global model of bird detection<br/>[github.com/weecology/BirdDetector](https://github.com/weecology/BirdDetector)
-* Izembek goose detector<br/>[github.com/agentmorris/usgs-geese](https://github.com/agentmorris/usgs-geese)
 * kabr-tools (behavioral analysis from drone videos)<br/>[github.com/Imageomics/kabr-tools](https://github.com/Imageomics/kabr-tools)
-* Conservation Drones Elephant Detection and Tracking<br/>([github.com/ConservationDronesAI/ElephantDetectionAndTracking](https://github.com/ConservationDronesAI/ElephantDetectionAndTracking))
-* DuckNet (a detector for waterbirds) ([github.com/mkmitchell/DuckNet](https://github.com/mkmitchell/DuckNet))
-
-
-### OSS repos about drone/aerial wildlife datasets
-
-* WAID (Wildlife Aerial Images from Drone)<br/>[github.com/xiaohuicui/WAID](https://github.com/xiaohuicui/WAID)
 
